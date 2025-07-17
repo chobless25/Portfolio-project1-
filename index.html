@@ -114,18 +114,33 @@
         <!-- Web Project -->
         <div class="col-md-6 col-lg-4 web">
           <div class="card h-100 shadow-sm">
-            <img src="images/web-design.png" class="card-img-top" alt="Portfolio Website">
+            <img style="max-width: 100%; height: auto;" src="images/web-design.png" class="card-img-top" alt="Portfolio Website">
             <div class="card-body">
               <h5 class="card-title">Registration Form</h5>
               <p class="card-text">Responsive Registration Form built with HTML, CSS, & JS</p>
             </div>
           </div>
+          <div class="Portfolio-item">
+    <img src="" alt="">
+    <h3>Portfolio</h3>
+    <button onclick="openModal('modal1')">View Details</button>
+  </div>
+
+  <!-- Modal -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h2>Project 1</h2>
+    <p>This is a brief of my Portfolio</p>
+    <a href="https://github.com/chobless25/Portfolio-project1" target="_blank">View on GitHub</a>
+  </div>
+</div>
         </div>
 
         <!-- Web Project -->
         <div class="col-md-6 col-lg-4 web">
           <div class="card h-100 shadow-sm">
-            <img src="images/web-project.png" class="card-img-top" alt="Portfolio Website">
+            <img style="max-width: 100%; height: auto;" src="images/web-project.png" class="card-img-top" alt="Portfolio Website">
             <div class="card-body">
               <h5 class="card-title">School Website</h5>
               <p class="card-text">Responsive School site built with HTML, CSS, & JS</p>
@@ -136,7 +151,7 @@
         <!-- Web Project -->
         <div class="col-md-6 col-lg-4 web">
           <div class="card h-100 shadow-sm">
-            <img src="images/web2.png" class="card-img-top" alt="Portfolio Website">
+            <img style="max-width: 100%; height: auto;" src="images/web2.png" class="card-img-top" alt="Portfolio Website">
             <div class="card-body">
               <h5 class="card-title">Registration Form</h5>
               <p class="card-text">Responsive Registration Form built with HTML, CSS, & JS.</p>
@@ -149,7 +164,7 @@
         <!-- apps Project -->
         <div class="col-md-6 col-lg-4 marketing">
           <div class="card h-100 shadow-sm">
-            <img src="images/Calculator.png" class="card-img-top" alt="Marketing Campaign">
+            <img style="max-width: 100%; height: auto;" src="images/Calculator.png" class="card-img-top" alt="Marketing Campaign">
             <div class="card-body">
               <h5 class="card-title">Calculator</h5>
               <p class="card-text">Responsive Calculator built with visual basic</p>
@@ -160,7 +175,7 @@
         <!-- Design Project -->
         <div class="col-md-6 col-lg-4 design">
           <div class="card h-100 shadow-sm">
-            <img src="images/project.jpg" class="card-img-top" alt="School Identity Design">
+            <img style="max-width: 100%; height: auto;" src="images/project.jpg" class="card-img-top" alt="School Identity Design">
             <div class="card-body">
               <h5 class="card-title">School Identity</h5>
               <p class="card-text">Complete school design with logo, color system, and social media kit.</p>
@@ -171,7 +186,7 @@
         <!-- Design Project -->
         <div class="col-md-6 col-lg-4 design">
           <div class="card h-100 shadow-sm">
-            <img src="images/design.jpg" class="card-img-top" alt="School Identity Design">
+            <img style="max-width: 100%; height: auto;" src="images/design.jpg" class="card-img-top" alt="School Identity Design">
             <div class="card-body">
               <h5 class="card-title">School Identity</h5>
               <p class="card-text">Complete school design with logo, color system, and social media kit.</p>
@@ -182,7 +197,7 @@
         <!-- apps Project -->
         <div class="col-md-6 col-lg-4 marketing">
           <div class="card h-100 shadow-sm">
-            <img src="images/POS.png" class="card-img-top" alt="Marketing Campaign">
+            <img style="max-width: 100%; height: auto;" src="images/POS.png" class="card-img-top" alt="Marketing Campaign">
             <div class="card-body">
               <h5 class="card-title">Point of Sale (POS)</h5>
               <p class="card-text">Responsive Point of Sale (POS) system built with visual basic</p>
@@ -193,7 +208,7 @@
         <!-- apps Project -->
         <div class="col-md-6 col-lg-4 marketing">
           <div class="card h-100 shadow-sm">
-            <img src="images/Registration.png" class="card-img-top" alt="Marketing Campaign">
+            <img style="max-width: 100%; height: auto;" src="images/Registration.png" class="card-img-top" alt="Marketing Campaign">
             <div class="card-body">
               <h5 class="card-title">Student Registration Form</h5>
               <p class="card-text">Responsive Student Registration Form built with visual basic</p>
@@ -272,7 +287,7 @@
   <!-- AI Chatbot Placeholder -->
   <div id="chatbot" class="chatbot shadow">
     <div class="chatbot-header chatbot-toggle">🤖 Ask Me!</div>
-    <div class="chatbot-body">
+    <div class="chatbot-body" id="chatMessages">
       <!-- JavaScript will populate this -->
     </div>
   </div>
